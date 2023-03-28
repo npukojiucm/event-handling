@@ -1,7 +1,4 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/65e9gf9ay9j4at2o?svg=true)](https://ci.appveyor.com/project/npukojiucm/2-dom)
-
-[![Build status](https://ci.appveyor.com/api/projects/status/65e9gf9ay9j4at2o/branch/main?svg=true)](https://ci.appveyor.com/project/npukojiucm/2-dom/branch/main)
-
 ![CI](https://github.com/npukojiucm/2-DOM/actions/workflows/web.yml/badge.svg)
 
 # Домашнее задание к занятию "2. DOM"
