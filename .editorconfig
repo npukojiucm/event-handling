@@ -4,13 +4,13 @@ root = true
 end_of_line = lf
 insert_final_newline = true
 
-[*.{js,py}]
+[*.{js,py,html}]
 charset = utf-8
 
 [*.js]
 indent_style = tab
 
 # Indentation override for all JS under lib directory
-[**.js]
+[*.{js,html}]
 indent_style = space
 indent_size = 2

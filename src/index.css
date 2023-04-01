@@ -20,3 +20,27 @@
     width: 70px;
     margin: 0;
 }
+
+.table-result {
+    width: 408px;
+    text-align: center;
+    padding: 0;
+}
+
+.table-result-win, .table-result-loss {
+    display: inline-block;
+    width: 202px;
+    font-size: 1.5rem;
+}
+
+.table-result-win{
+    color: green;
+}
+
+.table-result-loss{
+    color: red;
+}
+
+.content-win, .content-loss {
+    font-weight: 700;
+}
