@@ -30,12 +30,22 @@ function changeSection() {
   window.localStorage.setItem('position', nextPosition);
 }
 
+function onClickImg() {
+  const container = document.querySelector('.container');
+
+  container.addEventListener('click', (event) => {
+    console.log(event);
+  });
+}
+
 function start() {
   const startPosition = getRandomInt();
   const img = createElement();
   const sections = document.querySelectorAll('.section');
 
   window.localStorage.setItem('position', startPosition);
+
+  onClickImg();
 
   return sections[startPosition].append(img);
 }
